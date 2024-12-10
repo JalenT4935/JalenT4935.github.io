@@ -114,18 +114,21 @@ blackgumonly1 <- tree %>%
   filter(COMMON_NAME == "blackgum")
 head(blackgumonly1)
 ```
+
 ```{r}
 blackgum_IL <- blackgumonly1 %>%
   filter(ABBR == "IL")
 
 summary(blackgum_IL)
 ```
+
 ```{r}
 blackgum_tn <- blackgumonly1 %>%
   filter(ABBR == "TN")
 
 summary(blackgum_tn)
 ```
+
 ```{r}
 blackgum_fl <- blackgumonly1 %>%
   filter(ABBR == "FL")
