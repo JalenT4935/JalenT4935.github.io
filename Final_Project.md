@@ -73,7 +73,7 @@ library(eHOF)
 # Introduction:
 
 The black gum tree, scientifically known as the Nyssa Sylvatica, is a
-deciduous tree on the Nyssaceae family. Black gum is also commonly
+deciduous tree in the Nyssaceae family. Black gum is also commonly
 referred to as black Tupelo, Pepperidge, and sour gum. This species
 grows mainly in the southeastern United States: from New York and Maine,
 Michigan, Illinois, southern/eastern Oklahoma to Southern Florida and
@@ -96,8 +96,8 @@ have more variable climates, species at higher latitudes are selected
 for more broad environmental tolerances, meaning that they can persist
 across a broader range of climate conditions.
 
-I will be analyzing different variables as well (height, diameter,
-elevation, IV) to see variability. From the northern to souther portion
+I will be analyzing different variables (height, diameter,
+elevation, IV) to see variability. From the northern to southern portion
 of the black gum’s distribution.
 
 # Data:
@@ -559,12 +559,36 @@ summary(blackgum_fl)
     ##  Max.   :0.6979   Max.   :30.99   Max.   :-80.95  
     ## 
 
-I used Excel to create charts for the maximum height, diameter and
-elevation for the black gum in Illinois, Tennessee, and Florida.
+I used Excel to create charts for the maximum height, diameter and elevation for the black gum in Illinois, Tennessee, and Florida with total year span between 2014-2021.
 
 # Results:
 
+![](Final_Project_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+
+*This image shows the plot of the importance value for the black gum species with latitude.
+
+![](Final_Project_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+
+This image shows the ggplot of the importance value for the black gum species. 
+
+
 <img src="height.png" width="100%" />
 
+*This image shows the maximum height of the black gum species found in Illinois, Tennessee, and Florida. 
+
 <img src="diameter.png" width="100%" />
+*This image shows the maximum diameter of the black gum species found in Illinois, Tennessee, and Florida.
+
+
 <img src="elevation.png" width="100%" />
+*This image shows the maximum elevation of the black gum species found in Illinois, Tennessee, and Florida.
+
+In all of these charts, the first dot is Florida, the second is Tennessee, and the third is Illinois(from left to right).
+
+# Discussion:
+
+As seen by the importance value plot, the importance value of the black gum species increased with lattitude. This implies that the abundance and/or role for the black gum species increases with latitude, which can support Rapoport's rule and the idea that increasing latitude has an impact on the latitudinal range of a species.
+
+In terms of the results from the black gum data in Illinois, Tennessee, and Florida, as latitude increases, maximum height decreases. Even with climate change, as you go northward, there are cooler temperatures which may limit tree growth there. In terms of elevation, the spike in elevation in Tenessee is likely due to the mountain coverage. Out of the three states, the maximum tree diameter was highest in Tennessee, which could be an result of the favorable temperatures and consistent rainfall. 
+
+In all, future research using more states within the same longitudinal strip would probably be more useful in analyzing the distribution of the black gum species. 
