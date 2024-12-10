@@ -90,6 +90,9 @@ hof_plot <- function(species){
 
 hof_plot("blackgum")
 ```
+![image](https://github.com/user-attachments/assets/15332a94-c0c1-46bc-aec2-68bd5a089731)
+
+
 ```{r}
 plot_spcd_IV <- function(species, p_size, low_c, high_c){
   IV_spcd <- iv_data %>%
@@ -101,6 +104,8 @@ plot_spcd_IV <- function(species, p_size, low_c, high_c){
 
 plot_spcd_IV("blackgum", 0.9, "blue", "red")
 ```
+![image](https://github.com/user-attachments/assets/6c9fc325-2d11-476d-8d48-ed5349dd910a)
+
 
 I used these codes to produce data for just black gum species. I analyzed a state from the northern, middle, and southern portion of the black gum’s distribution longitudinal strip to compare. The three states used were Illinois, Tennessee, and Florida, with a range of 2014-2021.
 
@@ -136,10 +141,14 @@ I used Excel to create charts for the maximum height, diameter and elevation for
 ```{r echo=FALSE, out.width="100%"}
 knitr::include_graphics("height.png",error = FALSE)
 ```
+![image](https://github.com/user-attachments/assets/42f31658-db8a-4938-a2a0-52bef8053fc2)
+
 
 ```{r echo=FALSE, out.width="100%"}
 knitr::include_graphics("diameter.png",error = FALSE)
 ```
+
+
 ```{r echo=FALSE, out.width="100%"}
 knitr::include_graphics("elevation.png",error = FALSE)
 ```
