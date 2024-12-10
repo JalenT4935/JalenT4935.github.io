@@ -5,6 +5,8 @@
 - [adv GIS repository] _____link
 
 
+
+
 ```{r}
 getwd()
 iv_data <- readRDS("IV_data.RDS")
@@ -125,3 +127,27 @@ blackgum_fl <- blackgumonly1 %>%
 
 summary(blackgum_fl)
 ```
+
+
+I used Excel to create charts for the maximum height, diameter and elevation for the black gum in Illinois, Tennessee, and Florida. 
+
+# Results: 
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("height.png",error = FALSE)
+```
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("diameter.png",error = FALSE)
+```
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("elevation.png",error = FALSE)
+```
+
+# Discussion:
+
+As seen by the importance value plot, the importance value of the black gum species increased with lattitude. This implies that the abundance and/or role for the black gum species increases with latitude, which can support Rapoport's rule and the idea that increasing latitude has an impact on the latitudinal range of a species.
+
+In terms of the results from the black gum data in Illinois, Tennessee, and Florida, as latitude increases, maximum height decreases. Even with climate change, as you go northward, there are cooler temperatures which may limit tree growth there. In terms of elevation, the spike in elevation in Tenessee is likely due to the mountain coverage. Out of the three states, the maximum tree diameter was highest in Tennessee, which could be an result of the favorable temperatures and consistent rainfall.
+
+In all, future research using more states within the same longitudinal strip would probably be more useful in analyzing the distribution of the black gum species.
