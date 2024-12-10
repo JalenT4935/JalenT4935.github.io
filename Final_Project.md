@@ -100,7 +100,7 @@ I will be analyzing different variables as well (height, diameter,
 elevation, IV) to see variability. From the northern to souther portion
 of the black gum’s distribution.
 
-# Data
+# Data:
 
 In terms of data, I used a combination of a few different things. For
 one, I used reputable sources with numerical data on the black gum
@@ -111,7 +111,7 @@ used the IV data and FIA tree data to produce results for variables. I
 looked at results for elevation, IV, height, and diameter. I also used
 Excel to display some of the results.
 
-# Methods
+# Methods:
 
 For some data and background information about precipitation,
 temperature, height, and diameter, I used reputable sources to extract
@@ -561,3 +561,10 @@ summary(blackgum_fl)
 
 I used Excel to create charts for the maximum height, diameter and
 elevation for the black gum in Illinois, Tennessee, and Florida.
+
+# Results:
+
+<img src="height.png" width="100%" />
+
+<img src="diameter.png" width="100%" />
+<img src="elevation.png" width="100%" />
