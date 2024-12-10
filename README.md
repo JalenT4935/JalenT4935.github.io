@@ -147,11 +147,13 @@ knitr::include_graphics("height.png",error = FALSE)
 ```{r echo=FALSE, out.width="100%"}
 knitr::include_graphics("diameter.png",error = FALSE)
 ```
+![image](https://github.com/user-attachments/assets/c24e8946-f06c-476e-a848-b6f9b7a98554)
 
 
 ```{r echo=FALSE, out.width="100%"}
 knitr::include_graphics("elevation.png",error = FALSE)
 ```
+![image](https://github.com/user-attachments/assets/451a1d8b-aa01-4d0b-8ae6-68ef8d745342)
 
 # Discussion:
 
